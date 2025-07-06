@@ -78,25 +78,4 @@ public class Player : MonoBehaviour
             }
         }
     }
-
-    /*private void DeliminarMovimiento()
-    {
-        float xClamped = Mathf.Clamp(transform.position.x, -8.4f, 8.4f);
-        float yClamped = Mathf.Clamp(transform.position.y, -4.5f, 4.5f);
-        transform.position = new Vector3(xClamped, yClamped, 0);
-    }
-
-    private void MovimientoCinematico()
-    {
-        Vector2 movimiento = new Vector2(h, v).normalized;
-        transform.Translate(movimiento * speed * Time.deltaTime);
-    }*/
-
-    //-------------------------------------------------------------------------------------------------------------
-
-    /*private void MovimientoDinamico()
-    {
-        Vector2 movimiento = new Vector2(h, v).normalized;
-        rb.linearVelocity = movimiento * speed;
-    }*/
 }
